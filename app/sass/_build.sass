@@ -1,0 +1,100 @@
+.build
+  z-index: 1
+  position: relative
+  padding-left: 20px
+  .container
+    max-width: 1920px
+    display: flex
+    justify-content: right
+    .build__main
+      max-width: 1700px
+      width: 100%
+      display: flex
+      margin-top: 95px
+      @media (max-width: $tabletM)
+        margin-top: 20px
+      @media (max-width: $tabletL)
+        flex-direction: column-reverse
+      .build__text
+        width: 48.1%
+        margin-right: 45px
+        margin-top: 90px
+        @media (max-width: $tabletM)
+          margin: auto 45px auto 0
+        @media (max-width: $tabletL)
+          width: 100%
+          padding-right: 20px
+          margin-top: 20px
+        h1
+          font-family: Circular Std, sans-serif
+          font-style: normal
+          font-weight: bold
+          font-size: 85px
+          line-height: 95px
+          color: #272D4E
+          @media (max-width: $tabletM)
+            font-size: 60px
+            line-height: 65px
+          @media (max-width: $tabletL)
+            text-align: center
+          @media (max-width: $tabletS)
+            font-size: 40px
+            line-height: 50px
+        p
+          font-family: Roboto, sans-serif
+          font-style: normal
+          font-weight: normal
+          font-size: 18px
+          line-height: 25px
+          color: #94A2B3
+          margin-top: 29px
+          max-width: 715px
+          @media (max-width: $tabletL)
+            max-width: 100%
+            text-align: center
+        .build__buttons
+          margin-top: 31px
+          display: flex
+          align-items: center
+          @media (max-width: $tabletM)
+            flex-direction: column
+          a
+            &:first-child
+              padding: 25px 63px
+              background-color: #7854F7
+              border-radius: 60px
+              font-family: Roboto, sans-serif
+              font-style: normal
+              font-weight: 500
+              font-size: 18px
+              line-height: 21px
+              color: #FFFFFF
+              margin-right: 12px
+              @media (max-width: $tabletM)
+                margin-bottom: 20px
+            &:last-child, span
+              font-family: Roboto, sans-serif
+              font-style: normal
+              font-weight: 700
+              font-size: 18px
+              line-height: 25px
+              color: #299ef3
+              span
+                font-weight: 400
+                color: #94A2B3
+                cursor: auto
+      .build__img
+        width: 49.2%
+        display: flex
+        max-height: 830px
+        @media (max-width: $tabletL)
+          width: 100%
+          min-height: auto
+        img
+          width: 100%
+          height: 100%
+          object-fit: contain
+
+
+
+

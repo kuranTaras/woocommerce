@@ -1,0 +1,67 @@
+.platform
+  background-color: #5F37EF
+  padding: 0 20px
+  .container
+    max-width: 1280px
+    padding: 78px 0
+    @media (max-width: $tabletM)
+      padding: 40px 0
+    @media (max-width: $tabletS)
+      padding: 20px 0
+    .main
+      position: relative
+      margin-left: auto
+      max-width: 1130px
+      display: flex
+      justify-content: space-between
+      @media (max-width: $tabletS)
+        flex-direction: column
+      h1, span
+        font-family: Roboto, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 36px
+        line-height: 144.4%
+        color: #FFFFFF
+        width: 75.6%
+        margin-right: 40px
+        @media (max-width: $tabletM)
+          font-size: 25px
+        @media (max-width: $tabletS)
+          font-size: 18px
+          width: 100%
+          text-align: center
+        span
+          margin: 0
+          font-weight: 700
+      a
+        font-family: Roboto, sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 116.6%
+        text-align: center
+        color: #FFFFFF
+        margin: auto 0
+        padding: 25px 46px
+        border: 2px solid #FFFFFF
+        border-radius: 60px
+        white-space: nowrap
+        @media (max-width: $tabletM)
+          padding: 15px 25px
+          font-size: 15px
+        @media (max-width: $tabletS)
+          font-size: 12px
+          margin: 20px auto 0 auto
+      img
+        position: absolute
+        width: 7.8%
+        bottom: -99px
+        right: -15.5%
+        @media (max-width: 1630px)
+          right: 0
+        @media (max-width: $tabletM)
+          bottom: -70px
+          width: 5%
+        @media (max-width: $tabletS)
+          display: none

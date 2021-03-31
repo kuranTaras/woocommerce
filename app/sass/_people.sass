@@ -1,0 +1,79 @@
+.people
+  padding: 0 120px
+  @media (max-width: $tabletS)
+    padding: 0 20px
+  .container
+    max-width: 1310px
+    margin-top: -35px
+    flex-direction: column
+    h1
+      font-family: Circular Std, sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 55px
+      line-height: 127.2%
+      text-align: center
+      color: #272D4E
+      @media (max-width: $tabletS)
+        font-size: 40px
+    p
+      font-family: Roboto, sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 138.8%
+      text-align: center
+      color: #94A2B3
+      margin: 31px auto 0 auto
+      max-width: 660px
+      @media (max-width: $tabletS)
+        font-size: 14px
+        margin-top: 15px
+    .people__images
+      position: relative
+      width: 100%
+      margin-top: 16px
+      display: flex
+      img
+        object-fit: contain
+        &:not(:first-child)
+          position: absolute
+        &:first-child
+          width: 100%
+          object-fit: contain
+        &:nth-child(2)
+          width: 4.6%
+          left: -14.5%
+          top: 23.5%
+        &:nth-child(3)
+          width: 2.5%
+          left: -7.7%
+          bottom: 21.1%
+        &:nth-child(4)
+          width: 20.2%
+          left: -16.9%
+          bottom: -41.9%
+          z-index: -1
+        &:nth-child(5)
+          width: 109.7%
+          height: 93.1%
+          transform: translateX(-50%)
+          left: 50%
+          z-index: -1
+          bottom: -38.5%
+        &:nth-child(6)
+          width: 3.3%
+          right: -3.1%
+          top: 11.9%
+        &:last-child
+          width: 36%
+          right: -12.2%
+          bottom: -22.5%
+          z-index: -2
+
+
+
+
+
+
+
